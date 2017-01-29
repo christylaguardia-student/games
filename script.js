@@ -29,12 +29,12 @@ function determineWinner(userChoice, computerChoice){
   }
 
   if (userChoice === computerChoice) {
-    return 'The game is a tie';
+    return 'The game is a tie.';
   }
 
   if (userChoice === 'rock'){
     if (computerChoice === 'paper') {
-      return 'The computer won';
+      return 'The computer won.';
     } else {
       return 'You won!';
     }
@@ -42,7 +42,7 @@ function determineWinner(userChoice, computerChoice){
 
   if (userChoice ==='scissors') {
     if (computerChoice === 'rock'){
-      return 'The computer won';
+      return 'The computer won.';
     } else {
       return 'You won!';
     }
@@ -50,7 +50,7 @@ function determineWinner(userChoice, computerChoice){
 
   if (userChoice === 'paper') {
    if (computerChoice === 'scissors'){
-     return 'The computer won';
+     return 'The computer won.';
    } else {
    	return 'You won!';
    }
@@ -63,6 +63,8 @@ function playGame() {
   console.log('You: ' + userChoice);
   console.log('Computer: ' + computerChoice);
   console.log(determineWinner(userChoice, computerChoice));
+
+  window.confirm('The computer chose ' + computerChoice + '. ' + determineWinner(userChoice, computerChoice));
 }
 
 // playGame();
