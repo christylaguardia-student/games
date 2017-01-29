@@ -1,1 +1,1 @@
-# christylaguardia.games.github.io
+# christylaguardia.github.io/games/
