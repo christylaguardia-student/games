@@ -68,3 +68,30 @@ function playGame() {
 }
 
 // playGame();
+
+function playGameRock() {
+  var userChoice = 'rock'
+  var computerChoice = getComputerChoice();
+  var winner = determineWinner(userChoice, computerChoice);
+  console.log('You: ' + userChoice);
+  console.log('Computer: ' + computerChoice);
+  document.getElementById('results').textContent = 'The computer chose ' + computerChoice + '. ' + winner;
+}
+
+function playGamePaper() {
+  var userChoice = 'paper'
+  var computerChoice = getComputerChoice();
+  var winner = determineWinner(userChoice, computerChoice);
+  console.log('You: ' + userChoice);
+  console.log('Computer: ' + computerChoice);
+  document.getElementById('results').textContent = 'The computer chose ' + computerChoice + '. ' + winner;
+}
+
+function playGameScissors() {
+  var userChoice = 'scissors'
+  var computerChoice = getComputerChoice();
+  var winner = determineWinner(userChoice, computerChoice);
+  console.log('You: ' + userChoice);
+  console.log('Computer: ' + computerChoice);
+  document.getElementById('results').textContent = 'The computer chose ' + computerChoice + '. ' + winner;
+}
