@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
     <title>Rock! Paper! Scissors!</title>
   </head>
 
   <body>
     <h1>Rock! Paper! Scissors!</h1>
-    <p>Click the button below to play vs the computer!</p>
-    <input type="button" value="Let's Play!" onclick="playGame()">
+    <!-- <p>Click the button below to play vs the computer!</p> -->
+    <!-- <input type="button" value="Let's Play!" onclick="playGame()"> -->
+      <!-- <p>You vs the Computer</p> -->
       <script type="text/javascript" src="script.js"></script>
+
+      <div>
+        <table class='user'>
+          <th colspan="3">You</th>
+          <tr>
+            <td><img src="file:///Users/christinelaguardia/games/images/rock.jpeg"/ alt='Rock' onclick="playGameRock()"></td>
+            <td><img src="file:///Users/christinelaguardia/games/images/paper.jpeg"/ alt='Paper' onclick='playGamePaper()'></td>
+            <td><img src="file:///Users/christinelaguardia/games/images/scissor.jpeg"/ alt='Scissors' onclick="playGameScissors()"></td>
+        </table>
+
+        <table class='computer'>
+          <th colspan="3">Computer</th>
+          </tr>
+          <td><img src="file:///Users/christinelaguardia/games/images/rock.jpeg"/></td>
+          <td><img src="file:///Users/christinelaguardia/games/images/paper.jpeg"/></td>
+          <td><img src="file:///Users/christinelaguardia/games/images/scissor.jpeg"/></td>
+          </tr>
+        </table>
+    </div>
+
+      <div>
+        <p id=results>...</p>
+      </div>
   </body>
 
 </html>
