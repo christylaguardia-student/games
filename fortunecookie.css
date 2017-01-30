@@ -1,0 +1,16 @@
+.main-game2 {
+  height: 550px;
+  width: 100%;
+  padding-top: 55px;
+  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/3F994F7720.jpg");
+  background-position: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  background-color: white;
+}
+ h2 {
+   background-color: white;
+ }
