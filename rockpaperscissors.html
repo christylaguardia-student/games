@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="rockpaperscissors.css" />
+    <title>Rock! Paper! Scissors!</title>
+  </head>
+
+  <body>
+
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- <p>Click the button below to play vs the computer!</p> -->
+    <!-- <input type="button" value="Let's Play!" onclick="playGame()"> -->
+      <!-- <p>You vs the Computer</p> -->
+
+      <div class="main">
+        <div class="container">
+          <h1>Rock! Paper! Scissors!</h1>
+          <table class='user'>
+            <!-- <th colspan="3">You</th> -->
+            <tr>
+              <td><img src="images/rock.jpeg"/ alt='Rock' onclick="playGameRock()"></td>
+              <td><img src="images/paper.jpeg"/ alt='Paper' onclick='playGamePaper()'></td>
+              <td><img src="images/scissor.jpeg"/ alt='Scissors' onclick="playGameScissors()"></td>
+          </table>
+
+        <!-- <table class='computer'>
+          <th colspan="3">Computer</th>
+          </tr>
+          <td><img src="images/rock.jpeg"/></td>
+          <td><img src="images/paper.jpeg"/></td>
+          <td><img src="images/scissor.jpeg"/></td>
+          </tr>
+        </table> -->
+      </div>
+    </div>
+
+      <div>
+        <p id=results></p>
+      </div>
+
+      <script type="text/javascript" src="rockpaperscissors.js"></script>
+
+  </body>
+
+</html>
