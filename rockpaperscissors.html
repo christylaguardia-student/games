@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="style.css" />
-    <link type="text/css" rel="stylesheet" href="rockpaperscissors.css" />
+    <link type="text/css" rel="stylesheet" href="style.css"/>
     <title>Rock! Paper! Scissors!</title>
   </head>
 
@@ -16,39 +15,31 @@
         </ul>
     </nav>
 
-
-    <!-- <p>Click the button below to play vs the computer!</p> -->
-    <!-- <input type="button" value="Let's Play!" onclick="playGame()"> -->
-      <!-- <p>You vs the Computer</p> -->
-
-      <div class="main-game1">
-        <div class="container">
-          <h1>Rock! Paper! Scissors!</h1>
-          <table class='user'>
-            <!-- <th colspan="3">You</th> -->
-            <tr>
-              <td><img src="images/rock.jpeg"/ alt='Rock' onclick="playGameRock()"></td>
-              <td><img src="images/paper.jpeg"/ alt='Paper' onclick='playGamePaper()'></td>
-              <td><img src="images/scissor.jpeg"/ alt='Scissors' onclick="playGameScissors()"></td>
-          </table>
-
-        <!-- <table class='computer'>
-          <th colspan="3">Computer</th>
-          </tr>
-          <td><img src="images/rock.jpeg"/></td>
-          <td><img src="images/paper.jpeg"/></td>
-          <td><img src="images/scissor.jpeg"/></td>
-          </tr>
-        </table> -->
+    <div class="container" id="game1">
+      <h1>
+        Rock! Paper! Scissors!
+      </h1>
+      <h2>
+        Make your selection:
+      </h2>
+      <div>
+        <input class="button" type="button" value="Paper" onclick="playGamePaper()"></li>
+        <input class="button" type="button" value="Scissors" onclick="playGameScissors()"></li>
+        <input class="button" type="button" value="Rock" onclick="playGameRock()"></li>
       </div>
+      <h2 id="results"></h2>
     </div>
 
-      <div>
-        <p id=results></p>
-      </div>
+    <nav>
+      <ul>
+      </ul>
+    </nav>
 
-      <script type="text/javascript" src="rockpaperscissors.js"></script>
+    <footer>
+      @#169; Christy La Guardia 2017
+    </footer>
+
+    <script type="text/javascript" src="rockpaperscissors.js"></script>
 
   </body>
-
 </html>

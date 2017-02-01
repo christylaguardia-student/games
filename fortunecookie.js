@@ -159,5 +159,5 @@ function getFortune() {
 
 function playGame() {
   var results = getFortune();
-  document.getElementById('results').textContent = results;
+  document.getElementById('results').textContent = 'The Cookie says: ' + results;
 }
