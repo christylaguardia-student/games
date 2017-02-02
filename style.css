@@ -5,110 +5,48 @@ html, body {
 }
 
 .container {
-  /*max-width: 940px;*/
-  height: 600px;
-  width: 800px;
-  /*margin: 0;*/
-  padding: 55px;
-  /*background-size: auto;*/
-  /*background-repeat: no-repeat;*/
-
-  /*background-color: black;*/
-  /*display: inline-block;*/
-
-  /*width: 100%;*/
-  /*padding-top: 55px;*/
-  /*background-position: bsottom;*/
-  /*background-position: center center;*/
-  /*background-size: cover;*/
-  /*text-align: center;*/
-}
-
-
-/*html {
-  height: 100%;
-}
-
-body {
-  width: 800px;
-  height: 100%;
-  font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  background-color: black;
-}
-
-header {
-  background-color: white;
-  padding: 5px;
-  font-size: ;
-  display: block;
-}
-
-.container {
-  max-width: 928px;
-}*/
-
-/*.main {
   height: 550px;
   width: 100%;
-  padding-top: 55px;
-  background-position: left;
-  background-size: cover;
-  text-align: center;
-}*/
+  padding: 55px;
+  background-color: #F9F9F9;
+}
 
 h1 {
-  color: white; /*#117bff;*/
+  color: #4CAF50;
   font-size: 48px;
+  text-shadow: 1px 1px black;
 }
 
 h2 {
-  color: white; /*#117bff;*/
-  font-size: 36px;
+  color: ;
+  font-size: 24px;
 }
 
-h2 #results {
-  color: white; /*#4CAF50;*/
+h1, h2 {
+  max-width: 940px;
 }
 
-#home {
-  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/AP7L52KWPW.jpg");
-  background-repeat: no-repeat;
+form {
+  font-size: 24px;
+  color: orange;
 }
 
-#game1 {
-  /*rock paper scissors*/
-  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/MIFDXUR2VY.jpg");
-  background-size: cover;
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 18px;
 }
 
-#game2 {
-  /*fortune cookie*/
-  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/3F994F7720.jpg");
-}
-
-#game3 {
-  /*magic 8 ball*/
-  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/487672CBCC.jpg");
-}
-
-#game4 {
-  /*whale translator*/
-  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/280h/46JV8KAX2S.jpg");
-}
-
-#game5 {
-  /*dog year calculator*/
-  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/3BI8IJL9D8.jpg");
+#results {
+  font-size: 24px;
+  color: #117bff;
 }
 
 nav {
   float: left;
-  background-color: black;
+  background-color: #000000;
   width: 100%;
 }
 
@@ -132,14 +70,8 @@ nav li a {
 nav li:hover {
 	background: #117bff;
 	cursor: pointer;
-	transition: background .5s;
+	/*transition: background .5s;*/
 }
-
-/*section {
-  width: 100%;
-  display: inline-block;
-  float: left;
-}*/
 
 .button {
     color: white;
@@ -154,11 +86,18 @@ nav li:hover {
     margin: 20px;
 }
 
+.button:hover {
+  background-color: #117bff;
+  cursor: pointer;
+  color: white;
+}
+
 footer {
-  width: 790px;
-  background-color: none;
+  width: 100%;
+  background-color: #000000;
   color: #A1A1A1;
   clear: both;
   display: block;
   padding: 10px;
+  font-size: 10px;
 }

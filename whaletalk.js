@@ -1,4 +1,4 @@
-var input = document.getElementById('userMessage').value;
+var input = document.getElementById('userInput').value;
 var vowels = ['a','e','i','o','u'];
 var resultsArray = [];
 

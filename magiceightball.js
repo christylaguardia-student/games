@@ -33,5 +33,5 @@ function playGame() {
   var ballAnswer = getAnswer();
   console.log(userQuestion);
   console.log(ballAnswer);
-  document.getElementById('gameResults').textContent = 'The Ball says: ' + ballAnswer;
+  document.getElementById('results').textContent = 'The Ball says: ' + ballAnswer;
 }
