@@ -3,6 +3,7 @@ function playGame() {
   var vowels = ['a','e','i','o','u'];
   var resultsArray = [];
 
+  // do the translation
   for (var i = 0; i < input.length; i++) {
 
     for (var j = 0; j < vowels.length; j++) {
