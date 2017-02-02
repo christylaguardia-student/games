@@ -1,5 +1,3 @@
-// var input = document.getElementById('userInput').value;
-
 function playGame() {
   var input = prompt('Enter your message to translate into whale talk.');
   var vowels = ['a','e','i','o','u'];
