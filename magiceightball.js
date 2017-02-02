@@ -1,4 +1,4 @@
-var userQuestion = document.getElementById('userQuestion').value;
+// var userQuestion = document.getElementById('userQuestion').value;
 
 function getAnswer() {
   var randomNumber = Math.floor(Math.random() * 7);
@@ -29,9 +29,34 @@ function getAnswer() {
     }
 }
 
+
+function getQuestion() {
+  var randomNumber = Math.floor(Math.random() * 7);
+  switch (randomNumber) {
+    case 0:
+      return 'What your sign?';
+      break;
+    case 1:
+      return 'How old are you?';
+      break;
+    case 3:
+      return 'Are you LGBTQIA?';
+      break;
+    default:
+      return 'You have many questions, yes?';
+    }
+}
+
 function playGame() {
+  var userQuestion = prompt("What question do you want to ask the Magic 8 Ball?");
+  var ballQuestion = prompt(getQuestion());
+  alert("Ahh...I see...");
+
   var ballAnswer = getAnswer();
+
+  document.getElementById('userQuestion').textContent = userQuestion;
+  document.getElementById('results').textContent = 'The Ball says "' + ballAnswer + '."';
+
   console.log(userQuestion);
   console.log(ballAnswer);
-  document.getElementById('results').textContent = 'The Ball says: ' + ballAnswer;
 }
