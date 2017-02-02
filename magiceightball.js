@@ -1,5 +1,3 @@
-// var userQuestion = document.getElementById('userQuestion').value;
-
 function getAnswer() {
   var randomNumber = Math.floor(Math.random() * 7);
   switch (randomNumber) {
@@ -28,7 +26,6 @@ function getAnswer() {
       return 'I have my doubts';
     }
 }
-
 
 function getQuestion() {
   var randomNumber = Math.floor(Math.random() * 7);
