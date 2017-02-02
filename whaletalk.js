@@ -18,6 +18,7 @@ function playGame() {
   }
 
   var translation = resultsArray.join('').toUpperCase();
+  
   document.getElementById('userInput').textContent = input;
   document.getElementById('results').textContent = translation;
 
